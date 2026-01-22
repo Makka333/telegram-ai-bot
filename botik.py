@@ -8,6 +8,13 @@ from collections import defaultdict
 
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
 
 # ================== CONFIG ==================
 
