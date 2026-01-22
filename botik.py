@@ -11,7 +11,7 @@ from aiogram.filters import CommandStart
 
 # ================== CONFIG ==================
 
-BOT_TOKEN = "8250863889:AAHLa4WDehJvMwKn25a_PALOqyT2BchpUug"
+BOT_TOKEN = ""
 
 BASE_URL = "https://text.pollinations.ai/"
 TEMP = "0.7"
